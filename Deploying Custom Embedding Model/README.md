@@ -5,7 +5,7 @@ watsonx.ai는 기업이 생성형 AI를 빠르게 적용하고, 확장할 수 �
 
 본 예제에서는 RAG(Retrieval-Augmented Generation) 구현 시 한글 embedding model로 활용되는 BAAI/bge-m3 모델을 Hugging Face에서 다운받아 watsonx.ai 플랫폼에 배포하여 사용하는 예제를 구현해 보도록 하겠습니다.<br>
 
-### 관련 코드
+#### 관련 코드
 - **Deploying custom embedding model** : Hugging Face에서 bge-m3 모델을 다운로드하고, Embedding Fuction을 작성하여 WML Deployment Space에 해당 Function을 Deploy하는 서버측 코드
   1. Hugging Face에서 bge-m3 모델을 다운로드합니다.
   2. Enbedding Function을 구현합니다.
@@ -22,7 +22,7 @@ watsonx.ai는 기업이 생성형 AI를 빠르게 적용하고, 확장할 수 �
 참조용으로만 사용하시기 바라며, 운영 환경 반영 시 리팩토링이 필요합니다.
 <br>
 
-### 참고 자료
+#### 참고 자료
 #### Deploying Python functions in Watson Machine Learning <br>
 https://www.ibm.com/docs/en/cloud-paks/cp-data/5.0.x?topic=assets-deploying-python-functions
 #### The ibm-watsonx-ai library <br>

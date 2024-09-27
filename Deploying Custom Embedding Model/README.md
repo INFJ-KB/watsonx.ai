@@ -15,7 +15,11 @@ watsonx.ai는 기업이 생성형 AI를 빠르게 적용하고, 확장할 수 �
 - **Client App for calling custom embedding API** : End Point 로 노출된 Embedding API를 호출하여 원하는 Text를 bge-m3 모델로 embedding 하는 클라이언측 코드 
   1. End Point URL을 통해 Embedding API를 호출하여 text를 embedding 합니다.
   2. Embedding이 잘 되었는지 확인합니다. 
+<br>
 
+##### 주의!
+예시 코드는 예시일 뿐 Best Practice가 반영된 정제된 코드가 아닙니다.<br>
+참조용으로만 사용하시기 바라며, 운영 환경 반영 시 리팩토링이 필요합니다.
 <br>
 
 ### 참고 자료
